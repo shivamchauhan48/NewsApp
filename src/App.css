@@ -1,0 +1,92 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+.demo-logo {
+  background-image: url("./logo.png");
+}
+.contentStyle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logSection{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  height: 100%;
+}
+
+.logSection button {
+  background: transparent;
+  color: #ffffffa6;
+  border: none;
+  margin-right: 25px;
+  cursor: pointer;
+  border-radius: 6px;
+  padding: 10px 20px;
+}
+.logSection button:hover {
+  background-color: rgba(3, 221, 221, 0.995);
+  box-shadow: rgba(0, 238, 255, 0.947) 0px 5px 15px;
+  font-weight: bolder;
+}
+
+.logSection img{
+  width: 20px;
+  margin-right: 15px;
+  border-radius: 5px;
+}
+.newsitem:hover {
+  backdrop-filter: blur(10px);
+}
+
+.navbarbuttons {
+  display: flex;
+  justify-content: space-between;
+}
+.navbarbuttons a {
+  text-decoration: none;
+  color: #ffffffa6;
+}
+.navbarbuttons a:hover {
+  color: white;
+  font-weight: bolder;
+}
+
+.dark{
+  background-color: aquamarine;
+}
+
+.drawer{
+  display: none;
+}
+
+
+@media (max-width:500px) {
+  .menuheader{
+    display: none;
+  }
+}
+
+
+@media (min-width:500px) {
+  .menuoutlined{
+    display: none;
+  }
+}
+
+
+@media (max-width:1250px) {
+  .maincomp{
+    display: flex;
+    flex-direction: column;
+    
+  }
+}
+
+.sideLogSection{
+  display: block;
+  background-color: red;
+}
